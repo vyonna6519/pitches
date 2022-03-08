@@ -41,7 +41,7 @@ As a user I would like:
 ### Cloning
 * In your terminal:
         
-        $ git clone 
+        $ git clone 'https://github.com/vyonna6519/Password-locker.git'
         $ cd Pitches
         
 
@@ -50,8 +50,5 @@ As a user I would like:
 * Python3.8
 
 ## License
-<<<<<<< HEAD
 This project is under the  [MIT](LICENSE.md) license
-=======
-This project is under the  [MIT](LICENSE.md) license
->>>>>>> be6cc0b6f7078000483adb0ef8252c52e19d4702
+
