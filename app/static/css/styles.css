@@ -6,19 +6,20 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
+    background-image: url(/app/static/photos/background.jpg);
 }
 
 
 #cats{
-    color: white;
+    color: rgb(173, 30, 30);
     font-size: 18px;
 }
 #carded{
     border-radius:6px; 
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(173, 30, 30);
 }
 #posts{
-    color: rgb(255, 255, 255);
+    color: rgb(173, 30, 30);
     font-weight: bolder;
     margin-top: 2%;
     font-size: 40px;
@@ -32,7 +33,7 @@
     
 }
 #postform{
-    color: white;
+    color: rgb(173, 30, 30);
     margin-top: 3%;
     background-color: rgba(0, 0, 0, 0.456);
     padding:3%;
