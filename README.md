@@ -41,7 +41,7 @@ As a user I would like:
 ### Cloning
 * In your terminal:
         
-        $ git clone 'https://github.com/vyonna6519/Password-locker.git'
+        $ git clone 'https://github.com/vyonna6519/pitches.git'
         $ cd Pitches
         
 
