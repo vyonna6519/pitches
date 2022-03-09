@@ -3,25 +3,29 @@ import os
 # load_dotenv()
 
 class Config:
-    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
-    SQLALCHEMY_TRACK_MODIFICATIONS=True
-    SECRET_KEY= b'\x1a\xff\x9fX\x96\xa1\xd48\xf0\xe3\xcc\x1e\x9d4\xec\x12\xd1\x92\x94J#\x99f\xfb'
-    UPLOADED_PHOTOS_DEST ='app/static/photos'
+
+    SQLALCHEMY_TRACK_MODIFICATIONS= True
+    SECRET_KEY= b'562af35a9b244efba09ef9e1a482d134x9'
+    UPLOADED_PHOTOS_DEST = 'app/static/photos'
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 465
     MAIL_USE_TLS = False
     MAIL_USE_SSL = True
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
-    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://moringa:vyonna6519@localhost/one_min_pitch'
-    
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:vyonna6519@localhost/one_min_pitch'
+
+     # simple mde  configurations
+    SIMPLEMDE_JS_IIFE = True
+    SIMPLEMDE_USE_CDN = True
 
 class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
     pass
 
 class DevConfig(Config):
-    
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:vyonna6519@localhost/one_min_pitch'
+
     DEBUG = True
 
 config_options = {
