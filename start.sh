@@ -4,4 +4,4 @@ export MAIL_USERNAME="vyonna.njenga@student.moringaschool.com"
 export MAIL_PASSWORD="moringa6519"
 
 
-python3.8 manage.py 
+python3.8 manage.py server
