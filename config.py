@@ -4,7 +4,7 @@ import os
 
 class Config:
 
-    SQLALCHEMY_TRACK_MODIFICATIONS= True
+    SQLALCHEMY_TRACK_MODIFICATIONS= False
     # SECRET_KEY= '562af35a9b244efba09ef9e1a482d134x9'
     SECRET_KEY = os.environ.get('SECRET_KEY')
 
